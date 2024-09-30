@@ -614,7 +614,8 @@ O AWS Glue Studio é uma interface visual que facilita a criação, execução e
 	},
 	"hasBeenSaved": false
 }```
-
+<details>
+	
 ![image](https://github.com/user-attachments/assets/801b7e3f-4936-4094-9278-77f5af349a00)
 
 5. Ao final, execute o Job para que ele possa unificar as tabelas e inserir no Datalake (target pré-definido)

@@ -55,9 +55,9 @@ O crawler se conecta a um armazenamento de dados, avança por uma lista prioriza
 4. Utilize o componente de join para fazer a junção entre as tabelas através das chaves.
 
 <details>
-  <summary>Clique aqui para ver o código</summary>
-```
-{"dag": {
+  <summary>Clique aqui para ver a configuração em JSON</summary>
+
+	```"dag": {
 		"node-1727651267184": {
 			"classification": "DataSource",
 			"type": "Catalog",

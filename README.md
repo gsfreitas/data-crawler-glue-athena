@@ -4,14 +4,31 @@
   <img src="banner.jpg" >
 </p>
 
-# Gabriel Freitas
-<sub>*Analista Analytics PL* | Vivo - Telefônica Brasil</sub>
+# ETL e Data Crawler - Glue e Athena
 
-## Contatos:
-* **Artigos no Medium:** https://medium.com/@gsfreitas
-* **Linkedin:** https://www.linkedin.com/in/gabrielsfreitas/
+## Conteúdo
+* IAM para o Glue
+* Criar buckets e pastas
+* Executar o Crawler
+* Criar um Job
+* Executar e avaliar o resultado
+* Realizar consultas com o Athena
 
-## Projetos:
-Veja os projetos realizados sobre Engenharia de Dados:
+## AIM para o Glue
+O IAM (Identity and Access Management) é uma ferramenta para gerenciamento de recursos da AWS.
 
-* **ETL e Data Crowler - Glue e Athena:** https://github.com/gsfreitas/data_science/blob/main/Spark_Analise_NLP.ipynb
+1. Em soluções, procure por IAM
+2. Em gerenciamento de acesso, vá até a sessão *funções*
+3. Crie um perfil com o tipo de identidade *serviços AWS* e procure por Glue
+4. Conceda a função de *AdministratorAccess* para este serviço
+
+## Criar buckets e pastas
+Crie um bucket no Amazon S3, um serviço de armazenamento escalável na nuvem da AWS.
+
+1. Crie um bucket no S3
+2. Em seguida, crie outras 5 sub pastas para armaenar os logs, arquivos temporários e as fontes de dados.
+
+![image](https://github.com/user-attachments/assets/0617f1ed-43d8-4e59-83cd-8de0f33aa167)
+
+
+3. 

@@ -48,6 +48,7 @@ O crawler se conecta a um armazenamento de dados, avança por uma lista prioriza
 ![image](https://github.com/user-attachments/assets/a2188562-842e-41f3-94fb-eaf7504623a6)
 
 ## Criar um Job
+O AWS Glue Studio é uma interface visual que facilita a criação, execução e monitoramento de ETL (Extract, Transform, Load) jobs na AWS Glue, sem a necessidade de escrever código.
 
 1. Ainda no serviço Glue, na aba de Data Integration, crie um ETL Visual
 2. Selecione a fonte de dados como sendo AWS Glue Data Catalog e o target como sendo um bucket do Amazon S3
@@ -613,3 +614,19 @@ O crawler se conecta a um armazenamento de dados, avança por uma lista prioriza
 	},
 	"hasBeenSaved": false
 }```
+
+![image](https://github.com/user-attachments/assets/801b7e3f-4936-4094-9278-77f5af349a00)
+
+5. Ao final, execute o Job para que ele possa unificar as tabelas e inserir no Datalake (target pré-definido)
+
+## Realizar consultas com o Athena
+O Athena é um serviço de análise interativa sem a utilização de um servidor
+
+1. No console AWS procure por Athena
+2. Configure a fonte de dados para AWS Data Catalog e o database target em que se encontra a tabela unificada
+3. Em configurações, atribua um bucket do S3 para salvar os resultados da consulta de forma temporária
+
+![image](https://github.com/user-attachments/assets/0dd05e4c-79bb-4834-b5f3-6cac7a36cf9f)
+
+![image](https://github.com/user-attachments/assets/f78647e7-6fdf-42e1-8d75-3f4913cfde8b)
+

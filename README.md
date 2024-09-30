@@ -1,7 +1,7 @@
 [![Author](https://img.shields.io/badge/author-Gabriel_Freitas-purple.svg)](https://www.linkedin.com/in/gabrielsfreitas/) [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/) [![](https://img.shields.io/badge/Microsoft-Power_BI-yellow.svg)](https://powerbi.microsoft.com/pt-br/downloads/) [![](https://img.shields.io/badge/Oracle-SQL-orange.svg)](https://www.mysql.com/downloads/) [![](https://img.shields.io/badge/Apache-Spark-green.svg)]([https://powerbi.microsoft.com/pt-br/downloads/](https://spark.apache.org/)) [![](https://img.shields.io/badge/Mongo-DB-blue.svg)](https://www.mongodb.com/)
 
 <p align="center">
-  <img src="banner.jpeg" >
+  <img src="banner.jpg" >
 </p>
 
 # Gabriel Freitas

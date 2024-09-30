@@ -613,8 +613,8 @@ O AWS Glue Studio é uma interface visual que facilita a criação, execução e
 		"pythonPath": ""
 	},
 	"hasBeenSaved": false
-}```
 <details>
+}```
 	
 ![image](https://github.com/user-attachments/assets/801b7e3f-4936-4094-9278-77f5af349a00)
 

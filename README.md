@@ -54,6 +54,8 @@ O crawler se conecta a um armazenamento de dados, avança por uma lista prioriza
 3. De acordo com o schema das tabelas disponibilizadas, altere o nome dos ids das tabelas em que serão feitas os joins para não haver conflito com as Foreign Keys
 4. Utilize o componente de join para fazer a junção entre as tabelas através das chaves.
 
+<details>
+  <summary>Clique aqui para ver o código</summary>
 ```
 {"dag": {
 		"node-1727651267184": {
